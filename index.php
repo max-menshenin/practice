@@ -1,19 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-<h1>test</h1>
-<?php 
- $p = 'Приветствую Вас на моей страничке!';
-?>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+</head>
 
-<?php 
- $name = 'Александр';
- $surname = 'Иванов';
- $city = 'Москва';
- $age = 28;
-?>
+<body>
+    <?php
+    $p = 'Приветствую Вас на моей страничке!';
+    ?>
+
+    <?php
+    $name = 'Максим';
+    $surname = 'Меньшенин';
+    $city = 'Москва';
+    $age = 30;
+    ?>
 
 
-<?php
-include 'main.php';
-?>
+    <?php
+    include 'main.php';
+    ?>
+</body>
 
+</html>
