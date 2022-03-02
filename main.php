@@ -21,12 +21,12 @@
 
             <div class="data">
                 <div class="myImg">
-                    <?php  echo '<img src="/img/php.jpg">'; ?>                    
+                    <!-- <?php  echo '<img src="/img/php.jpg">'; ?>                     -->
                 </div>
 
                 <div class="fullname">
                     <p> Меня зовут 
-                    <?php echo $name, ' ', $surname . '<br>'; 
+                    <?php echo $surname, ' ', $name, ' ', $patronomyc   . '<br>'; 
                           echo 'город', ' ', $city; ?>                                      
                     </p> 
            
