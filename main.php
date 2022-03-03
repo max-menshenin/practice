@@ -23,7 +23,7 @@
             <div class="data">
                 <div class="myImg">
                     <?php
-                    echo '<img src="/img/php.jpg">';
+                    echo '<img src="img/php.jpg">';
                     ?>
             </div>
 
