@@ -29,7 +29,7 @@
 
                 <div class="fullname">
                     <p> Меня зовут 
-                    <?php echo $name, ' ', $surname, ' ', $patronomyc. '<br>'; 
+                    <?php echo $surname, ' ', $name, ' ', $patronomyc. '<br>'; 
                           echo 'город', ' ', $city; ?>                                      
                     </p> 
            
