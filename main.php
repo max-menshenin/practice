@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP Practice </title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </head>
 <body>
     
@@ -21,12 +22,14 @@
 
             <div class="data">
                 <div class="myImg">
-                    <!-- <?php  echo '<img src="/img/php.jpg">'; ?>                     -->
-                </div>
+                    <?php
+                    echo '<img src="/img/php.jpg">';
+                    ?>
+            </div>
 
                 <div class="fullname">
                     <p> Меня зовут 
-                    <?php echo $surname, ' ', $name, ' ', $patronomyc   . '<br>'; 
+                    <?php echo $name, ' ', $surname, ' ', $patronomyc. '<br>'; 
                           echo 'город', ' ', $city; ?>                                      
                     </p> 
            
@@ -41,8 +44,10 @@
             <div class="knowledge">
                                    
                     <?php  include 'knowledge.inc.php'; ?>
-                    <?php   echo $a, ' ', $b, ' ', $c; ?> <br>
-                                       
+                    <?php
+                    echo $a, ' ', $b, ' ', $c;
+                    ?> <br>
+                    
                     <?php
                         $a = 10;
                         $b = 20;
