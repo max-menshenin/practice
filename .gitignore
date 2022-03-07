@@ -1,3 +1,4 @@
-.DS_Store
-/nbproject/private/
+.DS_Store // MacOS files finder
+/nbproject/private // Apache Netbeans files
 .nbproject
+.code // VSCODE files
