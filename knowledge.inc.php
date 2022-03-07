@@ -10,16 +10,14 @@
 
 <?php
 $layout = 'Верстка удовлетворительна, но пока не идеальна'.'<br>';
-$php = 'Создавал проекты на Laravel'.'<br>';
+$php = 'Создавал проекты на Laravel';
 $javascript = 'Понимаю Javascript'; 
-
 $boolean = True; // присвоить $boolean значение TRUE
-echo $boolean.'<br>';
+echo $boolean. ' - булевый тип'.'<br>';
 $integer = 123;
-echo $integer.'<br>'.'integer — целые числа'.'<br>';
+echo $integer.'integer — целые числа'.'<br>';
 $double = 1.234;
 echo $double.'- дробные числа'.'<br>';
 $string = 'test';
-echo $string.'<br>';
-
+echo $string.' - строковый тип'.'<br>';
 ?>
