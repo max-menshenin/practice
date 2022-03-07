@@ -51,9 +51,9 @@
                 ?> <br>
 
                 <?php
-                $layout = 10;
-                $php = 30;
-                $javascript = $layout + $php;
+                $layout = 70;
+                $php = 40;
+                $javascript = $layout.$php;
                 echo $javascript;
                 ?> <br>
                 <?php
