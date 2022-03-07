@@ -55,11 +55,9 @@
                 $layout = 10;
                 $php = 30;
                 $javascript = $layout + $php;
-                echo $javascript;
+    
                 ?> <br>
-                <?php
-                echo $d;
-                ?>
+
 
             </div>
 
