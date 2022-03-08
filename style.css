@@ -84,6 +84,8 @@ li a {
     margin-top: 2em;
     display: flex;
     text-align: center;
+    padding-bottom: 5px;
+
 }
 
 
@@ -91,11 +93,13 @@ p {
     font-size: 1.2rem;
     color: #08298A;
     padding-left: 20px;
+    
 }
 
 .text {
     font-size: 1rem;
     color: #585858;
+    padding-bottom: ;
 }
 
 h2 {
