@@ -81,7 +81,9 @@ li a {
 }
 
 .article {
-    margin-top: 2em;   
+    margin-top: 2em;
+    display: flex;
+    text-align: center;
 }
 
 
